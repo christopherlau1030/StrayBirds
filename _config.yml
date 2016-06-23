@@ -116,13 +116,13 @@ disqus:
 #################################### global configure #######################################
 
 username: christopherlau1030
-baseurl: /StrayBirds
+baseurl: /blog
 markdown: redcarpet
 safe: false
 highlighter: pygments
 title: I know nothing
 description: from nothing to nothing
-theme: kunka
+theme: slate
 disqusname: minixalpha
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
