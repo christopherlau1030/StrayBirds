@@ -1,0 +1,19 @@
+---
+layout: default
+title: C++ primer Chapter2
+category: C++
+---
+##Chapter 2
+###It took me two days to finish reading chapter2 because I have to do the body test in Friday and I felt uncomfortable after that. Anyhow I managed to finish this chapter.
+###The minimal memory block is called 'byte', and the basic storage unit is called 'word'. 1 byte=8 bit, 1 word=4 or 8 byte.
+###Unsigned type means it can only be larger than 0, and signed type can be less than 0. unsigned char=0-255, signed char=-128-127.
+###Starting with 0 and it's octal, starting with 0X and it's hex.
+### '' is used for char and "" is used for string. Each string has an '\0' in the end, so it's actual length is one more than the surface.
+###Object means a memory space with the ability to store and has a type. 
+###Initialize is not assignment. Initialize means create an object and give it a value while assignment means erase the data and give a new one.
+###Initialize: int us=0; int us={0}; int us(0); int us{0};
+###Any variale outside the function is initialized as 0 and string is initialized as an empty string.
+### By using extern can do declaration but no definition. It can be error when initializing a variable with an extern in the function.
+### Reference is another name of the variable and it has to be initialized. It is not an object. usage: int &refval=ival;
+###Pointer is an object and it doesn't have to be initialized. It stores address. Usage: int *p=&ival; So when using *p it means using ival.
+###Const object can not be changed and therefore it has to be initialized.
